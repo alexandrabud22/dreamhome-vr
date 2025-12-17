@@ -47,12 +47,26 @@ export default function WaitlistForm() {
       className="flex flex-col sm:flex-row gap-4 justify-center items-center"
     >
       <input
-        type="email"
-        name="email"
-        required
-        placeholder="Enter your email"
-        className="px-4 py-3 rounded-lg text-black w-full sm:w-80 focus:outline-none focus:ring-2 focus:ring-orange-500"
-      />
+  type="email"
+  name="email"
+  required
+  placeholder="Enter your email"
+  className="
+    w-full sm:w-80
+    px-5 py-4
+    rounded-lg
+    bg-[#1C1F26]
+    text-white
+    placeholder:text-gray-500
+    border border-gray-700
+    focus:outline-none
+    focus:ring-2
+    focus:ring-orange-500
+    focus:border-orange-500
+    transition
+  "
+/>
+
 
       <button
         type="submit"
