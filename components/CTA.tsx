@@ -1,3 +1,5 @@
+import WaitlistForm from "./WaitlistForm";
+
 export default function CTA() {
   return (
     <section className="px-10 py-32 text-center bg-gradient-to-b from-[#0B1020] to-[#11162A]">
@@ -10,15 +12,7 @@ export default function CTA() {
         customization, and seamless purchasing — all in one platform.
       </p>
 
-      <div className="flex justify-center gap-4">
-        <button className="bg-orange-500 hover:bg-orange-600 transition px-8 py-4 rounded-lg font-medium text-lg">
-          Get early access
-        </button>
-
-        <button className="border border-gray-600 px-8 py-4 rounded-lg text-gray-300 hover:text-white transition text-lg">
-          Contact us
-        </button>
-      </div>
+      <WaitlistForm />
     </section>
   );
 }
